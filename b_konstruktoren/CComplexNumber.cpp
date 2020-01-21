@@ -28,8 +28,8 @@ string CComplexNumber::to_string()
 
 void CComplexNumber::get_re_im(float& re, float& im)
 {
-	re = real;
-	im = imaginary;
+	re = this->get_real();
+	im = this->get_imaginary();
 }
 
 
